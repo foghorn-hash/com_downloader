@@ -1,0 +1,566 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>Downloader</name>
+  <creationDate>30.01.2010</creationDate>
+  <author>Matti Kiviharju</author>
+  <copyright>Copyright (C) 2010 Matti Kiviharju. All rights reserved!</copyright>
+  <authorEmail>info at i4ware dot fi</authorEmail>
+  <authorUrl>www.i4ware.fi</authorUrl>
+  <version>1.0.0</version>
+  <description>This component allows visitor download a product!</description>
+  <files>
+<filename>LICENSE.txt</filename>
+<filename>downloader.js</filename>
+<filename>css/default.css</filename>
+<filename>css/index.html</filename>
+<filename>ext/CHANGES.html</filename>
+<filename>ext/INCLUDE_ORDER.txt</filename>
+<filename>ext/adapter/ext/ext-base.js</filename>
+<filename>ext/adapter/jquery/ext-jquery-adapter.js</filename>
+<filename>ext/adapter/jquery/jquery.js</filename>
+<filename>ext/adapter/prototype/effects.js</filename>
+<filename>ext/adapter/prototype/ext-prototype-adapter.js</filename>
+<filename>ext/adapter/prototype/prototype.js</filename>
+<filename>ext/adapter/prototype/scriptaculous.js</filename>
+<filename>ext/adapter/yui/ext-yui-adapter.js</filename>
+<filename>ext/adapter/yui/yui-utilities.js</filename>
+<filename>ext/ext-all-debug.js</filename>
+<filename>ext/ext-all.js</filename>
+<filename>ext/ext-core-debug.js</filename>
+<filename>ext/ext-core.js</filename>
+<filename>ext/license.txt</filename>
+<filename>ext/resources/css/README.txt</filename>
+<filename>ext/resources/css/borders.css</filename>
+<filename>ext/resources/css/box.css</filename>
+<filename>ext/resources/css/button.css</filename>
+<filename>ext/resources/css/combo.css</filename>
+<filename>ext/resources/css/core.css</filename>
+<filename>ext/resources/css/date-picker.css</filename>
+<filename>ext/resources/css/dd.css</filename>
+<filename>ext/resources/css/debug.css</filename>
+<filename>ext/resources/css/dialog.css</filename>
+<filename>ext/resources/css/editor.css</filename>
+<filename>ext/resources/css/ext-all.css</filename>
+<filename>ext/resources/css/form.css</filename>
+<filename>ext/resources/css/grid.css</filename>
+<filename>ext/resources/css/layout.css</filename>
+<filename>ext/resources/css/menu.css</filename>
+<filename>ext/resources/css/panel.css</filename>
+<filename>ext/resources/css/progress.css</filename>
+<filename>ext/resources/css/qtips.css</filename>
+<filename>ext/resources/css/reset-min.css</filename>
+<filename>ext/resources/css/reset.css</filename>
+<filename>ext/resources/css/resizable.css</filename>
+<filename>ext/resources/css/slider.css</filename>
+<filename>ext/resources/css/tabs.css</filename>
+<filename>ext/resources/css/toolbar.css</filename>
+<filename>ext/resources/css/tree.css</filename>
+<filename>ext/resources/css/window.css</filename>
+<filename>ext/resources/css/xtheme-gray.css</filename>
+<filename>ext/resources/css/xtheme-slate.css</filename>
+<filename>ext/resources/images/default/box/corners-blue.gif</filename>
+<filename>ext/resources/images/default/box/corners.gif</filename>
+<filename>ext/resources/images/default/box/l-blue.gif</filename>
+<filename>ext/resources/images/default/box/l.gif</filename>
+<filename>ext/resources/images/default/box/r-blue.gif</filename>
+<filename>ext/resources/images/default/box/r.gif</filename>
+<filename>ext/resources/images/default/box/tb-blue.gif</filename>
+<filename>ext/resources/images/default/box/tb.gif</filename>
+<filename>ext/resources/images/default/button/btn-arrow.gif</filename>
+<filename>ext/resources/images/default/button/btn-sprite.gif</filename>
+<filename>ext/resources/images/default/dd/drop-add.gif</filename>
+<filename>ext/resources/images/default/dd/drop-no.gif</filename>
+<filename>ext/resources/images/default/dd/drop-yes.gif</filename>
+<filename>ext/resources/images/default/editor/tb-sprite.gif</filename>
+<filename>ext/resources/images/default/form/checkbox.gif</filename>
+<filename>ext/resources/images/default/form/clear-trigger.gif</filename>
+<filename>ext/resources/images/default/form/clear-trigger.psd</filename>
+<filename>ext/resources/images/default/form/date-trigger.gif</filename>
+<filename>ext/resources/images/default/form/date-trigger.psd</filename>
+<filename>ext/resources/images/default/form/error-tip-corners.gif</filename>
+<filename>ext/resources/images/default/form/exclamation.gif</filename>
+<filename>ext/resources/images/default/form/radio.gif</filename>
+<filename>ext/resources/images/default/form/search-trigger.gif</filename>
+<filename>ext/resources/images/default/form/search-trigger.psd</filename>
+<filename>ext/resources/images/default/form/text-bg.gif</filename>
+<filename>ext/resources/images/default/form/trigger-tpl.gif</filename>
+<filename>ext/resources/images/default/form/trigger.gif</filename>
+<filename>ext/resources/images/default/form/trigger.psd</filename>
+<filename>ext/resources/images/default/gradient-bg.gif</filename>
+<filename>ext/resources/images/default/grid/arrow-left-white.gif</filename>
+<filename>ext/resources/images/default/grid/arrow-right-white.gif</filename>
+<filename>ext/resources/images/default/grid/col-move-bottom.gif</filename>
+<filename>ext/resources/images/default/grid/col-move-top.gif</filename>
+<filename>ext/resources/images/default/grid/columns.gif</filename>
+<filename>ext/resources/images/default/grid/dirty.gif</filename>
+<filename>ext/resources/images/default/grid/done.gif</filename>
+<filename>ext/resources/images/default/grid/drop-no.gif</filename>
+<filename>ext/resources/images/default/grid/drop-yes.gif</filename>
+<filename>ext/resources/images/default/grid/footer-bg.gif</filename>
+<filename>ext/resources/images/default/grid/grid-blue-hd.gif</filename>
+<filename>ext/resources/images/default/grid/grid-blue-split.gif</filename>
+<filename>ext/resources/images/default/grid/grid-hrow.gif</filename>
+<filename>ext/resources/images/default/grid/grid-loading.gif</filename>
+<filename>ext/resources/images/default/grid/grid-split.gif</filename>
+<filename>ext/resources/images/default/grid/grid-vista-hd.gif</filename>
+<filename>ext/resources/images/default/grid/grid3-hd-btn.gif</filename>
+<filename>ext/resources/images/default/grid/grid3-hrow-over.gif</filename>
+<filename>ext/resources/images/default/grid/grid3-hrow.gif</filename>
+<filename>ext/resources/images/default/grid/grid3-special-col-bg.gif</filename>
+<filename>ext/resources/images/default/grid/grid3-special-col-sel-bg.gif</filename>
+<filename>ext/resources/images/default/grid/group-by.gif</filename>
+<filename>ext/resources/images/default/grid/group-expand-sprite.gif</filename>
+<filename>ext/resources/images/default/grid/hd-pop.gif</filename>
+<filename>ext/resources/images/default/grid/hmenu-asc.gif</filename>
+<filename>ext/resources/images/default/grid/hmenu-desc.gif</filename>
+<filename>ext/resources/images/default/grid/hmenu-lock.gif</filename>
+<filename>ext/resources/images/default/grid/hmenu-lock.png</filename>
+<filename>ext/resources/images/default/grid/hmenu-unlock.gif</filename>
+<filename>ext/resources/images/default/grid/hmenu-unlock.png</filename>
+<filename>ext/resources/images/default/grid/invalid_line.gif</filename>
+<filename>ext/resources/images/default/grid/loading.gif</filename>
+<filename>ext/resources/images/default/grid/mso-hd.gif</filename>
+<filename>ext/resources/images/default/grid/nowait.gif</filename>
+<filename>ext/resources/images/default/grid/page-first-disabled.gif</filename>
+<filename>ext/resources/images/default/grid/page-first.gif</filename>
+<filename>ext/resources/images/default/grid/page-last-disabled.gif</filename>
+<filename>ext/resources/images/default/grid/page-last.gif</filename>
+<filename>ext/resources/images/default/grid/page-next-disabled.gif</filename>
+<filename>ext/resources/images/default/grid/page-next.gif</filename>
+<filename>ext/resources/images/default/grid/page-prev-disabled.gif</filename>
+<filename>ext/resources/images/default/grid/page-prev.gif</filename>
+<filename>ext/resources/images/default/grid/pick-button.gif</filename>
+<filename>ext/resources/images/default/grid/refresh.gif</filename>
+<filename>ext/resources/images/default/grid/row-check-sprite.gif</filename>
+<filename>ext/resources/images/default/grid/row-expand-sprite.gif</filename>
+<filename>ext/resources/images/default/grid/row-over.gif</filename>
+<filename>ext/resources/images/default/grid/row-sel.gif</filename>
+<filename>ext/resources/images/default/grid/sort_asc.gif</filename>
+<filename>ext/resources/images/default/grid/sort_desc.gif</filename>
+<filename>ext/resources/images/default/grid/wait.gif</filename>
+<filename>ext/resources/images/default/layout/collapse.gif</filename>
+<filename>ext/resources/images/default/layout/expand.gif</filename>
+<filename>ext/resources/images/default/layout/gradient-bg.gif</filename>
+<filename>ext/resources/images/default/layout/mini-bottom.gif</filename>
+<filename>ext/resources/images/default/layout/mini-left.gif</filename>
+<filename>ext/resources/images/default/layout/mini-right.gif</filename>
+<filename>ext/resources/images/default/layout/mini-top.gif</filename>
+<filename>ext/resources/images/default/layout/ns-collapse.gif</filename>
+<filename>ext/resources/images/default/layout/ns-expand.gif</filename>
+<filename>ext/resources/images/default/layout/panel-close.gif</filename>
+<filename>ext/resources/images/default/layout/panel-title-bg.gif</filename>
+<filename>ext/resources/images/default/layout/panel-title-light-bg.gif</filename>
+<filename>ext/resources/images/default/layout/stick.gif</filename>
+<filename>ext/resources/images/default/layout/stuck.gif</filename>
+<filename>ext/resources/images/default/layout/tab-close-on.gif</filename>
+<filename>ext/resources/images/default/layout/tab-close.gif</filename>
+<filename>ext/resources/images/default/menu/checked.gif</filename>
+<filename>ext/resources/images/default/menu/group-checked.gif</filename>
+<filename>ext/resources/images/default/menu/item-over.gif</filename>
+<filename>ext/resources/images/default/menu/menu-parent.gif</filename>
+<filename>ext/resources/images/default/menu/menu.gif</filename>
+<filename>ext/resources/images/default/menu/unchecked.gif</filename>
+<filename>ext/resources/images/default/panel/corners-sprite.gif</filename>
+<filename>ext/resources/images/default/panel/left-right.gif</filename>
+<filename>ext/resources/images/default/panel/light-hd.gif</filename>
+<filename>ext/resources/images/default/panel/tool-sprite-tpl.gif</filename>
+<filename>ext/resources/images/default/panel/tool-sprites.gif</filename>
+<filename>ext/resources/images/default/panel/tools-sprites-trans.gif</filename>
+<filename>ext/resources/images/default/panel/top-bottom.gif</filename>
+<filename>ext/resources/images/default/panel/top-bottom.png</filename>
+<filename>ext/resources/images/default/panel/white-corners-sprite.gif</filename>
+<filename>ext/resources/images/default/panel/white-left-right.gif</filename>
+<filename>ext/resources/images/default/panel/white-top-bottom.gif</filename>
+<filename>ext/resources/images/default/progress/progress-bg.gif</filename>
+<filename>ext/resources/images/default/qtip/bg.gif</filename>
+<filename>ext/resources/images/default/qtip/close.gif</filename>
+<filename>ext/resources/images/default/qtip/tip-sprite.gif</filename>
+<filename>ext/resources/images/default/s.gif</filename>
+<filename>ext/resources/images/default/shadow-c.png</filename>
+<filename>ext/resources/images/default/shadow-c.psd</filename>
+<filename>ext/resources/images/default/shadow-lr.png</filename>
+<filename>ext/resources/images/default/shadow.png</filename>
+<filename>ext/resources/images/default/shared/blue-loading.gif</filename>
+<filename>ext/resources/images/default/shared/calendar.gif</filename>
+<filename>ext/resources/images/default/shared/glass-bg.gif</filename>
+<filename>ext/resources/images/default/shared/hd-sprite.gif</filename>
+<filename>ext/resources/images/default/shared/large-loading.gif</filename>
+<filename>ext/resources/images/default/shared/left-btn.gif</filename>
+<filename>ext/resources/images/default/shared/loading-balls.gif</filename>
+<filename>ext/resources/images/default/shared/right-btn.gif</filename>
+<filename>ext/resources/images/default/shared/warning.gif</filename>
+<filename>ext/resources/images/default/sizer/e-handle-dark.gif</filename>
+<filename>ext/resources/images/default/sizer/e-handle.gif</filename>
+<filename>ext/resources/images/default/sizer/ne-handle-dark.gif</filename>
+<filename>ext/resources/images/default/sizer/ne-handle.gif</filename>
+<filename>ext/resources/images/default/sizer/nw-handle-dark.gif</filename>
+<filename>ext/resources/images/default/sizer/nw-handle.gif</filename>
+<filename>ext/resources/images/default/sizer/s-handle-dark.gif</filename>
+<filename>ext/resources/images/default/sizer/s-handle.gif</filename>
+<filename>ext/resources/images/default/sizer/se-handle-dark.gif</filename>
+<filename>ext/resources/images/default/sizer/se-handle.gif</filename>
+<filename>ext/resources/images/default/sizer/square.gif</filename>
+<filename>ext/resources/images/default/sizer/sw-handle-dark.gif</filename>
+<filename>ext/resources/images/default/sizer/sw-handle.gif</filename>
+<filename>ext/resources/images/default/slider/slider-bg.png</filename>
+<filename>ext/resources/images/default/slider/slider-thumb.png</filename>
+<filename>ext/resources/images/default/slider/slider-v-bg.png</filename>
+<filename>ext/resources/images/default/slider/slider-v-thumb.png</filename>
+<filename>ext/resources/images/default/tabs/scroll-left.gif</filename>
+<filename>ext/resources/images/default/tabs/scroll-right.gif</filename>
+<filename>ext/resources/images/default/tabs/scroller-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-btm-inactive-left-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-btm-inactive-right-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-btm-left-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-btm-right-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-close.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-strip-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tab-strip-bg.png</filename>
+<filename>ext/resources/images/default/tabs/tab-strip-btm-bg.gif</filename>
+<filename>ext/resources/images/default/tabs/tabs-sprite.gif</filename>
+<filename>ext/resources/images/default/toolbar/bg.gif</filename>
+<filename>ext/resources/images/default/toolbar/btn-arrow-light.gif</filename>
+<filename>ext/resources/images/default/toolbar/btn-arrow.gif</filename>
+<filename>ext/resources/images/default/toolbar/btn-over-bg.gif</filename>
+<filename>ext/resources/images/default/toolbar/gray-bg.gif</filename>
+<filename>ext/resources/images/default/toolbar/tb-bg.gif</filename>
+<filename>ext/resources/images/default/toolbar/tb-btn-sprite.gif</filename>
+<filename>ext/resources/images/default/tree/arrows.gif</filename>
+<filename>ext/resources/images/default/tree/drop-add.gif</filename>
+<filename>ext/resources/images/default/tree/drop-between.gif</filename>
+<filename>ext/resources/images/default/tree/drop-no.gif</filename>
+<filename>ext/resources/images/default/tree/drop-over.gif</filename>
+<filename>ext/resources/images/default/tree/drop-under.gif</filename>
+<filename>ext/resources/images/default/tree/drop-yes.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-end-minus-nl.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-end-minus.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-end-plus-nl.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-end-plus.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-end.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-line.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-minus-nl.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-minus.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-plus-nl.gif</filename>
+<filename>ext/resources/images/default/tree/elbow-plus.gif</filename>
+<filename>ext/resources/images/default/tree/elbow.gif</filename>
+<filename>ext/resources/images/default/tree/folder-open.gif</filename>
+<filename>ext/resources/images/default/tree/folder.gif</filename>
+<filename>ext/resources/images/default/tree/leaf.gif</filename>
+<filename>ext/resources/images/default/tree/loading.gif</filename>
+<filename>ext/resources/images/default/tree/s.gif</filename>
+<filename>ext/resources/images/default/window/icon-error.gif</filename>
+<filename>ext/resources/images/default/window/icon-info.gif</filename>
+<filename>ext/resources/images/default/window/icon-question.gif</filename>
+<filename>ext/resources/images/default/window/icon-warning.gif</filename>
+<filename>ext/resources/images/default/window/left-corners.png</filename>
+<filename>ext/resources/images/default/window/left-corners.psd</filename>
+<filename>ext/resources/images/default/window/left-right.png</filename>
+<filename>ext/resources/images/default/window/left-right.psd</filename>
+<filename>ext/resources/images/default/window/right-corners.png</filename>
+<filename>ext/resources/images/default/window/right-corners.psd</filename>
+<filename>ext/resources/images/default/window/top-bottom.png</filename>
+<filename>ext/resources/images/default/window/top-bottom.psd</filename>
+<filename>ext/resources/images/gray/button/btn-arrow.gif</filename>
+<filename>ext/resources/images/gray/button/btn-sprite.gif</filename>
+<filename>ext/resources/images/gray/gradient-bg.gif</filename>
+<filename>ext/resources/images/gray/panel/corners-sprite.gif</filename>
+<filename>ext/resources/images/gray/panel/left-right.gif</filename>
+<filename>ext/resources/images/gray/panel/light-hd.gif</filename>
+<filename>ext/resources/images/gray/panel/tool-sprite-tpl.gif</filename>
+<filename>ext/resources/images/gray/panel/tool-sprites.gif</filename>
+<filename>ext/resources/images/gray/panel/tools-sprites-trans.gif</filename>
+<filename>ext/resources/images/gray/panel/top-bottom.gif</filename>
+<filename>ext/resources/images/gray/panel/top-bottom.png</filename>
+<filename>ext/resources/images/gray/panel/white-corners-sprite.gif</filename>
+<filename>ext/resources/images/gray/panel/white-left-right.gif</filename>
+<filename>ext/resources/images/gray/panel/white-top-bottom.gif</filename>
+<filename>ext/resources/images/gray/qtip/bg.gif</filename>
+<filename>ext/resources/images/gray/qtip/close.gif</filename>
+<filename>ext/resources/images/gray/qtip/tip-sprite.gif</filename>
+<filename>ext/resources/images/gray/s.gif</filename>
+<filename>ext/resources/images/gray/tabs/scroll-left.gif</filename>
+<filename>ext/resources/images/gray/tabs/scroll-right.gif</filename>
+<filename>ext/resources/images/gray/tabs/scroller-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-btm-inactive-left-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-btm-inactive-right-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-btm-left-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-btm-right-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-close.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-strip-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tab-strip-bg.png</filename>
+<filename>ext/resources/images/gray/tabs/tab-strip-btm-bg.gif</filename>
+<filename>ext/resources/images/gray/tabs/tabs-sprite.gif</filename>
+<filename>ext/resources/images/gray/toolbar/bg.gif</filename>
+<filename>ext/resources/images/gray/toolbar/btn-arrow-light.gif</filename>
+<filename>ext/resources/images/gray/toolbar/btn-arrow.gif</filename>
+<filename>ext/resources/images/gray/toolbar/btn-over-bg.gif</filename>
+<filename>ext/resources/images/gray/toolbar/gray-bg.gif</filename>
+<filename>ext/resources/images/gray/toolbar/tb-bg.gif</filename>
+<filename>ext/resources/images/gray/toolbar/tb-btn-sprite.gif</filename>
+<filename>ext/resources/images/gray/window/icon-error.gif</filename>
+<filename>ext/resources/images/gray/window/icon-info.gif</filename>
+<filename>ext/resources/images/gray/window/icon-question.gif</filename>
+<filename>ext/resources/images/gray/window/icon-warning.gif</filename>
+<filename>ext/resources/images/gray/window/left-corners.png</filename>
+<filename>ext/resources/images/gray/window/left-corners.pspimage</filename>
+<filename>ext/resources/images/gray/window/left-right.png</filename>
+<filename>ext/resources/images/gray/window/right-corners.png</filename>
+<filename>ext/resources/images/gray/window/top-bottom.png</filename>
+<filename>ext/resources/images/slate/box/tb-blue.gif</filename>
+<filename>ext/resources/images/slate/button/btn-arrow.gif</filename>
+<filename>ext/resources/images/slate/button/btn-sprite.gif</filename>
+<filename>ext/resources/images/slate/editor/tb-sprite.gif</filename>
+<filename>ext/resources/images/slate/form/checkbox.gif</filename>
+<filename>ext/resources/images/slate/form/clear-trigger.gif</filename>
+<filename>ext/resources/images/slate/form/date-trigger.gif</filename>
+<filename>ext/resources/images/slate/form/radio.gif</filename>
+<filename>ext/resources/images/slate/form/search-trigger.gif</filename>
+<filename>ext/resources/images/slate/form/trigger-tpl.gif</filename>
+<filename>ext/resources/images/slate/form/trigger.gif</filename>
+<filename>ext/resources/images/slate/grid/grid-split.gif</filename>
+<filename>ext/resources/images/slate/grid/grid3-hd-btn.gif</filename>
+<filename>ext/resources/images/slate/grid/grid3-hrow-over.gif</filename>
+<filename>ext/resources/images/slate/grid/grid3-hrow.gif</filename>
+<filename>ext/resources/images/slate/grid/grid3-special-col-bg.gif</filename>
+<filename>ext/resources/images/slate/grid/grid3-special-col-sel-bg.gif</filename>
+<filename>ext/resources/images/slate/grid/page-first-disabled.gif</filename>
+<filename>ext/resources/images/slate/grid/page-first.gif</filename>
+<filename>ext/resources/images/slate/grid/page-last-disabled.gif</filename>
+<filename>ext/resources/images/slate/grid/page-last.gif</filename>
+<filename>ext/resources/images/slate/grid/page-next.gif</filename>
+<filename>ext/resources/images/slate/grid/page-prev.gif</filename>
+<filename>ext/resources/images/slate/grid/refresh.gif</filename>
+<filename>ext/resources/images/slate/grid/sort_asc.gif</filename>
+<filename>ext/resources/images/slate/grid/sort_desc.gif</filename>
+<filename>ext/resources/images/slate/menu/checked.gif</filename>
+<filename>ext/resources/images/slate/menu/group-checked.gif</filename>
+<filename>ext/resources/images/slate/menu/item-over.gif</filename>
+<filename>ext/resources/images/slate/menu/menu-parent.gif</filename>
+<filename>ext/resources/images/slate/menu/menu.gif</filename>
+<filename>ext/resources/images/slate/menu/unchecked.gif</filename>
+<filename>ext/resources/images/slate/panel/corners-sprite.gif</filename>
+<filename>ext/resources/images/slate/panel/left-right.gif</filename>
+<filename>ext/resources/images/slate/panel/light-hd.gif</filename>
+<filename>ext/resources/images/slate/panel/tool-sprite-tpl.gif</filename>
+<filename>ext/resources/images/slate/panel/tool-sprites.gif</filename>
+<filename>ext/resources/images/slate/panel/top-bottom.gif</filename>
+<filename>ext/resources/images/slate/panel/top-bottom.png</filename>
+<filename>ext/resources/images/slate/panel/white-corners-sprite.gif</filename>
+<filename>ext/resources/images/slate/panel/white-left-right.gif</filename>
+<filename>ext/resources/images/slate/panel/white-top-bottom.gif</filename>
+<filename>ext/resources/images/slate/progress/progress-bg.gif</filename>
+<filename>ext/resources/images/slate/qtip/bg.gif</filename>
+<filename>ext/resources/images/slate/qtip/close.gif</filename>
+<filename>ext/resources/images/slate/qtip/tip-sprite.gif</filename>
+<filename>ext/resources/images/slate/shared/glass-bg.gif</filename>
+<filename>ext/resources/images/slate/shared/hd-sprite.gif</filename>
+<filename>ext/resources/images/slate/shared/left-btn.gif</filename>
+<filename>ext/resources/images/slate/shared/right-btn.gif</filename>
+<filename>ext/resources/images/slate/sizer/e-handle-dark.gif</filename>
+<filename>ext/resources/images/slate/sizer/e-handle.gif</filename>
+<filename>ext/resources/images/slate/sizer/ne-handle-dark.gif</filename>
+<filename>ext/resources/images/slate/sizer/ne-handle.gif</filename>
+<filename>ext/resources/images/slate/sizer/nw-handle-dark.gif</filename>
+<filename>ext/resources/images/slate/sizer/nw-handle.gif</filename>
+<filename>ext/resources/images/slate/sizer/s-handle-dark.gif</filename>
+<filename>ext/resources/images/slate/sizer/s-handle.gif</filename>
+<filename>ext/resources/images/slate/sizer/se-handle-dark.gif</filename>
+<filename>ext/resources/images/slate/sizer/se-handle.gif</filename>
+<filename>ext/resources/images/slate/sizer/square.gif</filename>
+<filename>ext/resources/images/slate/sizer/sw-handle-dark.gif</filename>
+<filename>ext/resources/images/slate/sizer/sw-handle.gif</filename>
+<filename>ext/resources/images/slate/slider/slider-bg.png</filename>
+<filename>ext/resources/images/slate/slider/slider-thumb.png</filename>
+<filename>ext/resources/images/slate/slider/slider-v-bg.png</filename>
+<filename>ext/resources/images/slate/slider/slider-v-thumb.png</filename>
+<filename>ext/resources/images/slate/tabs/scroll-left.gif</filename>
+<filename>ext/resources/images/slate/tabs/scroll-right.gif</filename>
+<filename>ext/resources/images/slate/tabs/scroller-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-btm-inactive-left-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-btm-inactive-right-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-btm-left-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-btm-right-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-close.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-strip-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tab-strip-btm-bg.gif</filename>
+<filename>ext/resources/images/slate/tabs/tabs-sprite.gif</filename>
+<filename>ext/resources/images/slate/toolbar/bg.gif</filename>
+<filename>ext/resources/images/slate/toolbar/btn-arrow.gif</filename>
+<filename>ext/resources/images/slate/toolbar/btn-over-bg.gif</filename>
+<filename>ext/resources/images/slate/toolbar/tb-btn-sprite.gif</filename>
+<filename>ext/resources/images/slate/tree/arrows.gif</filename>
+<filename>ext/resources/images/slate/window/left-corners.png</filename>
+<filename>ext/resources/images/slate/window/left-right.png</filename>
+<filename>ext/resources/images/slate/window/right-corners.png</filename>
+<filename>ext/resources/images/slate/window/top-bottom.png</filename>
+<filename>ext/resources/images/vista/basic-dialog/bg-center.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/bg-left.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/bg-right.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/close.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/collapse.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/dlg-bg.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/e-handle.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/expand.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/hd-sprite.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/s-handle.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/se-handle.gif</filename>
+<filename>ext/resources/images/vista/basic-dialog/w-handle.gif</filename>
+<filename>ext/resources/images/vista/gradient-bg.gif</filename>
+<filename>ext/resources/images/vista/grid/grid-split.gif</filename>
+<filename>ext/resources/images/vista/grid/grid-vista-hd.gif</filename>
+<filename>ext/resources/images/vista/layout/collapse.gif</filename>
+<filename>ext/resources/images/vista/layout/expand.gif</filename>
+<filename>ext/resources/images/vista/layout/gradient-bg.gif</filename>
+<filename>ext/resources/images/vista/layout/ns-collapse.gif</filename>
+<filename>ext/resources/images/vista/layout/ns-expand.gif</filename>
+<filename>ext/resources/images/vista/layout/panel-close.gif</filename>
+<filename>ext/resources/images/vista/layout/panel-title-bg.gif</filename>
+<filename>ext/resources/images/vista/layout/panel-title-light-bg.gif</filename>
+<filename>ext/resources/images/vista/layout/stick.gif</filename>
+<filename>ext/resources/images/vista/layout/tab-close-on.gif</filename>
+<filename>ext/resources/images/vista/layout/tab-close.gif</filename>
+<filename>ext/resources/images/vista/qtip/bg.gif</filename>
+<filename>ext/resources/images/vista/qtip/tip-sprite.gif</filename>
+<filename>ext/resources/images/vista/s.gif</filename>
+<filename>ext/resources/images/vista/sizer/e-handle-dark.gif</filename>
+<filename>ext/resources/images/vista/sizer/e-handle.gif</filename>
+<filename>ext/resources/images/vista/sizer/ne-handle-dark.gif</filename>
+<filename>ext/resources/images/vista/sizer/ne-handle.gif</filename>
+<filename>ext/resources/images/vista/sizer/nw-handle-dark.gif</filename>
+<filename>ext/resources/images/vista/sizer/nw-handle.gif</filename>
+<filename>ext/resources/images/vista/sizer/s-handle-dark.gif</filename>
+<filename>ext/resources/images/vista/sizer/s-handle.gif</filename>
+<filename>ext/resources/images/vista/sizer/se-handle-dark.gif</filename>
+<filename>ext/resources/images/vista/sizer/se-handle.gif</filename>
+<filename>ext/resources/images/vista/sizer/sw-handle-dark.gif</filename>
+<filename>ext/resources/images/vista/sizer/sw-handle.gif</filename>
+<filename>ext/resources/images/vista/tabs/tab-btm-inactive-left-bg.gif</filename>
+<filename>ext/resources/images/vista/tabs/tab-btm-inactive-right-bg.gif</filename>
+<filename>ext/resources/images/vista/tabs/tab-btm-left-bg.gif</filename>
+<filename>ext/resources/images/vista/tabs/tab-btm-right-bg.gif</filename>
+<filename>ext/resources/images/vista/tabs/tab-sprite.gif</filename>
+<filename>ext/resources/images/vista/toolbar/gray-bg.gif</filename>
+<filename>ext/resources/images/vista/toolbar/tb-btn-sprite.gif</filename>
+<filename>ext/resources/resources.jsb</filename>
+<filename>icons/arrow-down.gif</filename>
+<filename>icons/arrow-up.gif</filename>
+<filename>icons/fam/add.gif</filename>
+<filename>icons/fam/application_go.png</filename>
+<filename>icons/fam/application_view_list.png</filename>
+<filename>icons/fam/book.png</filename>
+<filename>icons/fam/cog.png</filename>
+<filename>icons/fam/cog_edit.png</filename>
+<filename>icons/fam/connect.gif</filename>
+<filename>icons/fam/connect.png</filename>
+<filename>icons/fam/cross.gif</filename>
+<filename>icons/fam/delete.gif</filename>
+<filename>icons/fam/feed_add.png</filename>
+<filename>icons/fam/feed_delete.png</filename>
+<filename>icons/fam/feed_error.png</filename>
+<filename>icons/fam/folder_go.png</filename>
+<filename>icons/fam/folder_wrench.png</filename>
+<filename>icons/fam/grid.png</filename>
+<filename>icons/fam/image_add.png</filename>
+<filename>icons/fam/plugin.gif</filename>
+<filename>icons/fam/plugin_add.gif</filename>
+<filename>icons/fam/rss_go.png</filename>
+<filename>icons/fam/table_refresh.png</filename>
+<filename>icons/fam/user.gif</filename>
+<filename>icons/fam/user.png</filename>
+<filename>icons/fam/user_add.gif</filename>
+<filename>icons/fam/user_add.png</filename>
+<filename>icons/fam/user_comment.png</filename>
+<filename>icons/fam/user_delete.gif</filename>
+<filename>icons/fam/user_delete.png</filename>
+<filename>icons/fam/user_edit.png</filename>
+<filename>icons/fam/user_female.gif</filename>
+<filename>icons/fam/user_female.png</filename>
+<filename>icons/fam/user_gray.png</filename>
+<filename>icons/fam/user_green.gif</filename>
+<filename>icons/fam/user_green.png</filename>
+<filename>icons/fam/user_orange.png</filename>
+<filename>icons/fam/user_red.png</filename>
+<filename>icons/fam/user_suit.gif</filename>
+<filename>icons/fam/user_suit.png</filename>
+<filename>icons/save.gif</filename>
+<filename>icons/zoom.png</filename>
+<filename>images/PoweredBy_TES_DarkWhite.png</filename>
+<filename>images/index.html</filename>
+<filename>images/loading.gif</filename>
+<filename>images/x.gif</filename>
+<filename>index.html</filename>
+<filename>languages/english.php</filename>
+<filename>languages/finnish.php</filename>
+<filename>languages/english.js</filename>
+<filename>languages/finnish.js</filename>
+<filename>languages/index.html</filename>
+<filename>downloader.php</filename>
+  </files>
+  <images>
+  </images>
+  <install>
+    <queries>
+	   <query>
+CREATE TABLE IF NOT EXISTS `#__product_download_statics` (
+  `stat_id` int(12) NOT NULL auto_increment,
+  `product_id` int(12) NOT NULL default '1',
+  `filename` varchar(60) NOT NULL default 'com_rekry-1.0.0-stable-GNU_GPL.zip',
+  `datetime` datetime default '1970-01-01 00:00:00',
+  PRIMARY KEY  (`stat_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+	   </query>
+	   <query>
+CREATE TABLE IF NOT EXISTS `#__product_download_files` (
+  `file_id` int(12) NOT NULL auto_increment,
+  `product_id` int(12) NOT NULL default '1',
+  `filename` varchar(60) NOT NULL default 'com_rekry-1.0.0-stable-GNU_GPL.zip',
+  `datetime` datetime default '1970-01-01 00:00:00',
+  PRIMARY KEY  (`file_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+	   </query>
+	   <query>
+CREATE TABLE IF NOT EXISTS `#__product_documentation_files` (
+  `document_id` int(12) NOT NULL auto_increment,
+  `product_id` int(12) NOT NULL default '1',
+  `filename` varchar(60) NOT NULL default 'com_rekry-1.0.0_User_Manual.pdf',
+  `datetime` datetime default '1970-01-01 00:00:00',
+  PRIMARY KEY  (`document_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+	   </query>
+	   <query>
+CREATE TABLE IF NOT EXISTS `#__product_name` (
+  `product_id` int(12) NOT NULL auto_increment,
+  `name` varchar(60) NOT NULL default 'rekry!Joom ERP',
+  `license` varchar(20) NOT NULL default 'GNU GPL',
+  `datetime` datetime default '1970-01-01 00:00:00',
+  PRIMARY KEY  (`product_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+	   </query>
+    </queries>
+  </install>
+  <uninstall>
+    <queries>
+    </queries>
+  </uninstall>
+    <installfile>install.downloader.php</installfile>
+    <uninstallfile>uninstall.downloader.php</uninstallfile>
+  <administration>
+    <menu>Downloader</menu>
+    <submenu>
+       <menu task="admin">Admin</menu>
+	   <menu task="config">Config</menu>
+    </submenu>
+    <files>
+	<filename>admin.downloader.html.php</filename>
+	<filename>admin.downloader.php</filename>
+	<filename>config.downloader.php</filename>
+	<filename>index.html</filename>
+	<filename>install.downloader.php</filename>
+	<filename>downloader.xml</filename>
+	<filename>uninstall.downloader.php</filename>
+	<filename>uploads/index.html</filename>
+	<filename>LICENSE</filename>
+	<filename>LICENSE.txt</filename>
+    </files>
+</administration>
+</mosinstall>
